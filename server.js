@@ -6,4 +6,4 @@ app.get('/*', function(req, res){
   res.sendFile(path.join(__dirname+
   '/dist/buy-and-sell/index.html'));
 });
-app.listen(precess.env.POST || 8080);
+app.listen(process.env.POST || 8080);
